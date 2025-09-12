@@ -1,0 +1,63 @@
+<!-- marketing.html -->
+<!-- Dazy, Created by Eugene Jeong on 2025-09-05 -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dazy – Countdown & D-Day App</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#7c3aed">
+  <meta property="og:title" content="Dazy – Countdown & D-Day App">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Dazy helps you track and celebrate your important days with beautiful themes, photo timelines, and premium features.">
+  <style>
+    :root{--fg:#0f172a;--muted:#475569;--bg:#ffffff;--card:#f8fafc;--accent:#7c3aed;}
+    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+    .wrap{max-width:880px;margin:40px auto;padding:24px}
+    .hero{background:var(--card);padding:40px;border-radius:16px;text-align:center}
+    h1{font-size:32px;margin:0 0 16px;color:var(--accent)}
+    h2{font-size:22px;margin:24px 0 12px}
+    p{color:var(--muted)} a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    ul{padding-left:20px;color:var(--muted)}
+    footer{margin-top:40px;font-size:13px;color:var(--muted);text-align:center}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Dazy</h1>
+      <p>The countdown & D-Day app to make your moments unforgettable.</p>
+    </section>
+
+    <section>
+      <h2>✨ Features</h2>
+      <ul>
+        <li>Track your important events and anniversaries</li>
+        <li>Beautiful customizable themes and backgrounds</li>
+        <li>Photo timeline to relive memories</li>
+        <li>Privacy lock and iCloud backup for peace of mind</li>
+        <li>Widgets for quick access</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📱 Availability</h2>
+      <p>Dazy is available for iPhone and iPad via the Apple App Store.</p>
+    </section>
+
+    <section>
+      <h2>🔒 Legal</h2>
+      <ul>
+        <li><a href="./privacy.html">Privacy Policy</a></li>
+        <li><a href="./terms.html">Terms of Use</a></li>
+        <li><a href="./support.html">Support</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Dazy. All rights reserved.
+    </footer>
+  </main>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
