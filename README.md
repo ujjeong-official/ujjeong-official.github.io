@@ -17,4 +17,5 @@ Grabity
 - [Marketing](https://ujjeong-official.github.io/grabity/marketing.html)  
 - [Privacy Policy](https://ujjeong-official.github.io/grabity/privacy.html)  
 - [Terms of Use](https://ujjeong-official.github.io/grabity/terms.html)
+
 ---
