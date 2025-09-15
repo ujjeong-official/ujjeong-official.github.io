@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tap Beacon — Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tap Beacon support · FAQs · contact">
+  <meta property="og:title" content="Tap Beacon — Support">
+  <meta property="og:description" content="Get help with purchases, Pro unlock, and using Tap Beacon.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{
+      --bg:#0c0c0f; --fg:#f6f6f7; --muted:#b7b7bf; --card:#15151a; --stroke:#ffffff24; --accent:#b899ff;
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#ffffff; --fg:#0b0b10; --muted:#545564; --card:#f6f6f8; --stroke:#00000022; --accent:#7a5cff; }
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#000);color:var(--fg);
+         font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{max-width:880px;margin:0 auto;padding:28px 20px 56px}
+    header{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:10px}
+    .brand{font-weight:800;font-size:18px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px}
+    nav a:hover{color:var(--fg)}
+    .card{background:var(--card);border:1px solid var(--stroke);border-radius:14px;padding:18px;margin:14px 0}
+    h1{font-size:28px;margin:8px 0 8px}
+    h2{font-size:18px;margin:16px 0 8px}
+    a.btn{display:inline-block;background:var(--accent);color:#000;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    code,kbd{background:var(--stroke);padding:.15em .45em;border-radius:6px}
+    ul{margin:8px 0 0 18px}
+    footer{margin-top:28px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">Tap Beacon</div>
+      <nav>
+        <a href="marketing.html">Marketing</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <h1>Support</h1>
+    <p>If you need help, check the tips below or email us. We usually reply within 48 hours.</p>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:jeongjin1992@gmail.com">jeongjin1992@gmail.com</a></p>
+      <p>Please include (when relevant): device model, iOS version, steps to reproduce, and screenshots.</p>
+    </div>
+
+    <div class="card">
+      <h2>FAQ</h2>
+      <p><strong>How do I restore Pro?</strong><br>
+        On the Paywall, tap <kbd>Restore Purchases</kbd>. Make sure you’re signed into the same Apple ID used to buy Pro.</p>
+      <p><strong>Safe Walk is locked.</strong><br>
+        Safe Walk is part of Tap Beacon Pro. Unlock Pro to enable background check-in reminders and interval selection.</p>
+      <p><strong>Messages aren’t sending automatically.</strong><br>
+        iOS requires user confirmation for SMS. Tap Beacon prepares the message and opens the Messages share sheet for you to send.</p>
+      <p><strong>Location isn’t available.</strong><br>
+        Go to <em>iOS Settings → Privacy &amp; Security → Location Services</em>, enable for Tap Beacon (preferably “Always”), then try again.</p>
+      <p><strong>Refunds?</strong><br>
+        Purchases are processed by Apple. For refunds, use <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</p>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Tap Beacon • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
