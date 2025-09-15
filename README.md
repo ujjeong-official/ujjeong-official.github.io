@@ -18,4 +18,10 @@ Grabity
 - [Privacy Policy](https://ujjeong-official.github.io/grabity/privacy.html)  
 - [Terms of Use](https://ujjeong-official.github.io/grabity/terms.html)
 
+TapBeacon
+- [Support](https://ujjeong-official.github.io/tapBeacon/support.html)
+- [Marketing](https://ujjeong-official.github.io/tapBeacon/marketing.html)  
+- [Privacy Policy](https://ujjeong-official.github.io/tapBeacon/privacy.html)  
+- [Terms of Use](https://ujjeong-official.github.io/tapBeacon/terms.html)
+
 ---
