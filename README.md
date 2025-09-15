@@ -6,7 +6,7 @@ These documents are required for App Store submission and subscription complianc
 ---
 
 ## 📄 Pages
-DAZY
+Dazy
 - [Support](https://ujjeong-official.github.io/support.html)
 - [Marketing](https://ujjeong-official.github.io/marketing.html)  
 - [Privacy Policy](https://ujjeong-official.github.io/privacy.html)  
