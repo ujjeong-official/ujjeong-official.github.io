@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CareTag — In Case of Emergency</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CareTag puts your emergency medical info one tap away.">
+  <meta property="og:title" content="CareTag — In Case of Emergency">
+  <meta property="og:description" content="Show allergies, meds, contacts, and blood type instantly.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{--bg:#0a0b12;--fg:#fff;--muted:#b9c1ff;--pill:#21243a;--accent:#7c87ff}
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0a0b12 0,#12142a 60%,#15172e 100%);color:var(--fg)}
+    header{padding:56px 20px;text-align:center}
+    h1{font-size:40px;margin:0 0 10px}
+    p.lead{color:#dfe1ff;margin:0 auto 24px;max-width:780px}
+    .cta{display:inline-block;background:var(--accent);color:#111;font-weight:700;padding:12px 20px;border-radius:14px;text-decoration:none}
+    .ghost{background:transparent;border:1px solid #3a3d66;color:#dfe1ff;margin-left:8px}
+    main{max-width:1100px;margin:0 auto;padding:24px 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:16px}
+    .card{background:#0e1022;border:1px solid #22254b;border-radius:18px;padding:18px}
+    .pill{display:inline-block;background:var(--pill);color:#dfe1ff;padding:4px 10px;border-radius:999px;font-size:12px}
+    h3{margin:8px 0}
+    footer{padding:32px 20px;border-top:1px solid #1e2147;text-align:center;color:#b3b7ff}
+    a{color:#aab1ff}
+    .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:24px}
+    .shot{aspect-ratio:9/16;border-radius:18px;background:#0b0d1d;border:1px solid #1b1e3f;display:flex;align-items:center;justify-content:center;color:#667}
+  </style>
+</head>
+<body>
+<header>
+  <h1>CareTag</h1>
+  <p class="lead">Your emergency information — <strong>one tap away</strong>. Share blood type, allergies, medications, and a primary contact instantly.</p>
+  <p>
+    <a class="cta" href="{{APP_STORE_URL}}">Get on App Store</a>
+    <a class="cta ghost" href="privacy.html">Privacy</a>
+  </p>
+</header>
+
+<main>
+  <section class="grid">
+    <article class="card">
+      <span class="pill">On-device</span>
+      <h3>Private by design</h3>
+      <p>Your data stays on your iPhone. No account, no server. Optional iCloud Drive backup you control.</p>
+    </article>
+    <article class="card">
+      <span class="pill">Emergency</span>
+      <h3>ICE at a glance</h3>
+      <p>Show responders a clean card with your essentials: blood type, allergies, meds, conditions, and contact.</p>
+    </article>
+    <article class="card">
+      <span class="pill">Family</span>
+      <h3>Profiles for loved ones</h3>
+      <p>Create profiles for kids, parents, or travel companions — all in one app.</p>
+    </article>
+    <article class="card">
+      <span class="pill">Premium</span>
+      <h3>Go further</h3>
+      <p>Emergency QR (vCard / Call Primary), iCloud backup/restore, reminders, customization — and no ads.</p>
+    </article>
+  </section>
+
+  <section class="shots">
+    <div class="shot">Home screen mock</div>
+    <div class="shot">Emergency card mock</div>
+    <div class="shot">Paywall mock</div>
+  </section>
+
+  <section style="margin-top:28px" class="grid">
+    <article class="card">
+      <h3>Who is it for?</h3>
+      <ul>
+        <li>Seniors & caregivers</li>
+        <li>Chronic conditions & allergies</li>
+        <li>Travelers crossing language barriers</li>
+        <li>Parents & kids (school/camp)</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h3>Why CareTag?</h3>
+      <ul>
+        <li>Fast: designed for emergencies</li>
+        <li>Local-first privacy</li>
+        <li>Thoughtful UX for responders</li>
+        <li>Simple pricing</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer>
+  © 2025 fromDayOne · <a href="support.html">Support</a> · <a href="terms.html">Terms</a> · <a href="privacy.html">Privacy</a>
+</footer>
+</body>
+</html>
