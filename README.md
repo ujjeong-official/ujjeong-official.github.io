@@ -24,4 +24,10 @@ TapBeacon
 - [Privacy Policy](https://ujjeong-official.github.io/tapBeacon/privacy.html)  
 - [Terms of Use](https://ujjeong-official.github.io/tapBeacon/terms.html)
 
+CareTag
+- [Support](https://ujjeong-official.github.io/careTag/support.html)
+- [Marketing](https://ujjeong-official.github.io/careTag/marketing.html)  
+- [Privacy Policy](https://ujjeong-official.github.io/careTag/privacy.html)  
+- [Terms of Use](https://ujjeong-official.github.io/careTag/terms.html)
+
 ---
