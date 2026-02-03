@@ -30,4 +30,10 @@ CareTag
 - [Privacy Policy](https://ujjeong-official.github.io/careTag/privacy.html)  
 - [Terms of Use](https://ujjeong-official.github.io/careTag/terms.html)
 
+Housie
+- [Support](https://ujjeong-official.github.io/housie/support.html)
+- [Marketing](https://ujjeong-official.github.io/housie/marketing.html)  
+- [Privacy Policy](https://ujjeong-official.github.io/housie/privacy.html)  
+- [Terms of Use](https://ujjeong-official.github.io/housie/terms.html)
+
 ---
