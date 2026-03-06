@@ -36,4 +36,10 @@ Housie
 - [Privacy Policy](https://ujjeong-official.github.io/housie/privacy.html)  
 - [Terms of Use](https://ujjeong-official.github.io/housie/terms.html)
 
+Avocart
+- [Support](https://ujjeong-official.github.io/avocart/support.html)
+- [Marketing](https://ujjeong-official.github.io/avocart/marketing.html)  
+- [Privacy Policy](https://ujjeong-official.github.io/avocart/privacy.html)  
+- [Terms of Use](https://ujjeong-official.github.io/avocart/terms.html)
+
 ---
