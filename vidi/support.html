@@ -1,1 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Vidi – Support</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0A84FF">
+  <style>
+    :root{--fg:#0f172a;--muted:#475569;--bg:#ffffff;--card:#f8fafc;--accent:#0A84FF;}
+    *{box-sizing:border-box} body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+    .wrap{max-width:820px;margin:40px auto;padding:24px}
+    .card{background:var(--card);padding:24px;border-radius:16px}
+    h1{font-size:28px;margin:0 0 12px} h2{font-size:20px;margin:28px 0 12px}
+    h3{font-size:16px;margin:20px 0 6px;color:var(--fg)}
+    p,li{color:var(--muted)} a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    code{background:#e2e8f0;padding:1px 6px;border-radius:4px;font-size:14px;color:#0f172a}
+    footer{margin-top:28px;font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="card">
+      <h1>Vidi Support</h1>
+      <p>Welcome to the official support page for Vidi. Most questions are answered below — if yours isn't, email us and we'll get back to you.</p>
 
+      <h2>📌 Contact Us</h2>
+      <p>Bug reports, questions, and feature requests are all welcome:</p>
+      <ul>
+        <li>Email: <a href="mailto:jeongjin1992@gmail.com">jeongjin1992@gmail.com</a></li>
+      </ul>
+      <p>If you're reporting a problem, it helps to include your iPhone model and iOS version.</p>
+
+      <h2>🚀 Getting Started</h2>
+      <ol>
+        <li>Grant Vidi access to your photo library when asked. Choose <strong>Full Access</strong> so Vidi can see every video.</li>
+        <li>Watch each video and tap <strong>Keep</strong> or <strong>Trash</strong>. Nothing is deleted at this point.</li>
+        <li>Open the <strong>Trash</strong> tab to look through everything you marked. Restore anything you changed your mind about.</li>
+        <li>Delete the rest in one go, and confirm when iOS asks.</li>
+      </ol>
+
+      <h2>❓ Frequently Asked Questions</h2>
+
+      <h3>I deleted videos, but my storage didn't go down. Why?</h3>
+      <p>This is the most common question, and it's expected behavior on iPhone. Deleted videos move to the <strong>Recently Deleted</strong> album, where iOS holds them for about 30 days as a safety net. They still take up space until that period ends.</p>
+      <p>To reclaim the space right away, open <strong>Photos → Albums → Recently Deleted</strong>, then choose <strong>Select → Delete All</strong>. Be certain first, because that step cannot be undone.</p>
+
+      <h3>I deleted a video by mistake. Can I get it back?</h3>
+      <p>Usually, yes. Open <strong>Photos → Albums → Recently Deleted</strong>, find the video, and tap <strong>Recover</strong>. This works for about 30 days after deletion. If you marked a video for trash but haven't deleted it yet, just restore it from Vidi's Trash tab instead.</p>
+
+      <h3>Vidi isn't showing all of my videos.</h3>
+      <p>There are two likely reasons:</p>
+      <ul>
+        <li><strong>Limited photo access.</strong> If you granted access to only selected videos, Vidi can only see those. Fix it in <strong>Settings → Privacy &amp; Security → Photos → Vidi → Full Access</strong>.</li>
+        <li><strong>You already reviewed them.</strong> Vidi hides videos you've already decided on so you don't see them twice. Kept videos live in the Kept tab.</li>
+      </ul>
+
+      <h3>Why can't I delete any more videos?</h3>
+      <p>The free version includes 20 deletions in total. Once you've used them, upgrading to Vidi Pro removes the limit. Reviewing and keeping videos is always unlimited and free.</p>
+
+      <h3>I bought Vidi Pro, but the features are locked.</h3>
+      <p>Open the upgrade screen and tap <strong>Restore Purchases</strong>. Make sure you're signed in with the same Apple ID you used to buy it. If it still doesn't unlock, email us and we'll help.</p>
+
+      <h3>Is Vidi Pro a subscription?</h3>
+      <p>No. It's a single one-time purchase with nothing to renew or cancel.</p>
+
+      <h3>Does Vidi upload my videos anywhere?</h3>
+      <p>No. Vidi has no servers, no account system, and no analytics. Your videos are read on your iPhone and stay there. A video only leaves your device if you tap Share and send it somewhere yourself. See our <a href="./privacy.html">Privacy Policy</a> for details.</p>
+
+      <h3>What does "biggest first" do?</h3>
+      <p>It sorts your feed so the largest videos come up first, which is the fastest way to free up meaningful space. The Photos app doesn't offer this. It's a Vidi Pro feature.</p>
+
+      <h3>Will deleting in Vidi affect my other devices?</h3>
+      <p>If you use iCloud Photos, deletions sync across all devices on that account, the same as deleting from the Photos app.</p>
+
+      <h3>How do I request a refund?</h3>
+      <p>Purchases are handled by Apple. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+      <footer>
+        © <span id="y"></span> Vidi. All rights reserved. · <a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Use</a>
+      </footer>
+    </div>
+  </main>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
