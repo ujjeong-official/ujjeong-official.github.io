@@ -42,7 +42,7 @@ Avocart
 - [Privacy Policy](https://ujjeong-official.github.io/avocart/privacy.html)  
 - [Terms of Use](https://ujjeong-official.github.io/avocart/terms.html)
 
-Avocart
+Vidi
 - [Support](https://ujjeong-official.github.io/vidi/support.html)
 - [Marketing](https://ujjeong-official.github.io/vidi/marketing.html)  
 - [Privacy Policy](https://ujjeong-official.github.io/vidi/privacy.html)  
